@@ -1,11 +1,10 @@
 import './App.css';
+import { BasicTable } from './components/BasicTable';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Texto de prueba</p>
-      </header>
+      <BasicTable />
     </div>
   );
 }
