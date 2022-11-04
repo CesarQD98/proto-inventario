@@ -1,0 +1,28 @@
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+td {
+    text-align: left;
+}
+
+tr:hover {
+    background-color: chartreuse;
+}
